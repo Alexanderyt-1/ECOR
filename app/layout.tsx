@@ -1,14 +1,14 @@
-import "./globals.css";
-
 export const metadata = {
-  title: "EcoRuta Startup",
-  description: "Logística ecológica inteligente",
+  title: "EcoRuta",
+  description: "Logística ecológica"
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body style={{ background: "black", color: "white", fontFamily: "Arial" }}>
+        {children}
+      </body>
     </html>
   );
 }
